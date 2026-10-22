@@ -1,0 +1,33 @@
+﻿Indicador,Numerador / cálculo,Denominador,Unidade,Fontes,Desagregação,Produtos
+Saneamento adequado – componente água,Moradores em DPP com rede geral de água (V00508),População residente em DPP,× 100,F01,Setor censitário,Boletim 11 – Saneamento
+Saneamento adequado – componente esgoto,V00580 + V00581,População residente em DPP,× 100,F01,Setor censitário,Boletim 11 – Saneamento
+Saneamento adequado – componente lixo,V00612 + V00613,População residente em DPP,× 100,F01,Setor censitário,Boletim 11 – Saneamento
+Saneamento adequado composto (estrito / flexível),Média dos três componentes (estrito: só com os três presentes; flexível: média dos disponíveis),—,0 a 100,F01,Setor censitário,Boletim 11 – Saneamento
+Índice de vulnerabilidade (sem e com dimensão racial),"Média dos z-scores de crianças 0–4, idosos 60+ e analfabetismo 15+ (com raça: acrescenta proporção de população negra)",—,z-score,F01,Setor censitário,Boletim 11 – Saneamento
+Taxa de internação por AVC,Internações por I60–I64 e G45,População residente,× 100.000,F03; F07,"Município, ano",Boletim 12 – AVC hiperagudo; Programa AVC Hiperagudo
+Tempo médio de permanência,Soma de DIAS_PERM,Total de internações,dias,F03,"Município, hospital",Boletim 12 – AVC hiperagudo
+Taxa de mortalidade por AVC,Óbitos por I60–I64,População residente,× 100.000,F04; F07,"Município, ano",Boletim 12 – AVC hiperagudo
+Tempo médio de resposta total do SAMU,Soma de (T5 − T0),Número de atendimentos,minutos,F14,Município,Boletim 12 – AVC hiperagudo; Relatório Anual CRUR-BF 2025
+Tempo médio de transporte,Soma de (T7 − T6),Número de atendimentos com remoção,minutos,F14,Município,Boletim 12 – AVC hiperagudo; Relatório Anual CRUR-BF 2025
+Variação percentual de chamados,Chamados do ano − chamados do ano anterior,Chamados do ano anterior,× 100,F14,"Região, ano",Relatório Anual CRUR-BF 2025
+Percentual por tipo de chamado,Chamados do tipo,Total de chamados do mês ou do município,× 100,F14,"Mês, município",Relatório Anual CRUR-BF 2025; Painéis do Observatório (ver aba Painéis)
+Incidência de arboviroses,Casos confirmados no ano,População do mesmo ano,× 10.000,F05; F07,"Município, ano",Boletim 13 – Arboviroses
+Correlação por defasagem clima × dengue,Anomalia semanal de precipitação ou temperatura,Casos confirmados nas semanas seguintes (defasagem 0 a 12),ρ de Spearman,F05; F12; F13,"Região, semana epidemiológica",Boletim 13 – Arboviroses
+Leitos SUS gerais por habitante,"Leitos SUS gerais (CNES, dezembro)",População,× 1.000,F08; F07,"Município, região",Apresentação Regionalização (CT 15/10/2026)
+Retenção regional das internações,Internações de residentes realizadas na própria região,Total de internações de residentes,× 100,F03,"Região, especialidade",Apresentação Regionalização (CT 15/10/2026)
+Índice de dependência na alta complexidade,Internações de alta complexidade de residentes feitas fora da região,Total de internações de alta complexidade de residentes,× 100,F03,Região,Apresentação Regionalização (CT 15/10/2026)
+Leitos necessários para autossuficiência,"Parâmetros da Portaria GM/MS nº 1.631/2015 (taxa de internação, permanência e ocupação de 82%) aplicados à população SUS-dependente",—,leitos,F03; F07; F08; F09,"Região, linha de cuidado",Apresentação Regionalização (CT 15/10/2026)
+Cobertura potencial da APS regional,Soma da população coberta,População total,× 100 (ponderada pela população),F10; F07,Região,Apresentação Regionalização (CT 15/10/2026)
+Percentual da meta de OCI do PAR,OCI aprovadas,Meta de OCI pactuada no PAR,× 100,F16,Município,Apresentação Agora Tem Especialistas / painel NAG
+Retenção de OCI e de cirurgias no município,Procedimentos de residentes realizados no próprio município,Total de procedimentos de residentes,× 100,F16; F19,Município,Apresentação Agora Tem Especialistas / painel NAG
+Cobertura vacinal municipal da D1 da tríplice viral,Registros válidos de D1 em residentes,População-alvo residente,× 100 (comparação com a meta de 95% sempre pelo valor não arredondado),F22; F23,"Município, ano",Boletim 14 – Tríplice viral e sarampo
+Cobertura regional da D1,Soma das doses dos municípios,Soma das populações-alvo (não é média das coberturas),× 100,F22; F23,"Região de saúde, Baixada Fluminense, estado",Boletim 14 – Tríplice viral e sarampo
+Proporção de municípios abaixo da meta,Municípios com cobertura < 95%,Total de municípios do recorte,× 100,F22; F23,"Região, ano",Boletim 14 – Tríplice viral e sarampo
+Persistência abaixo da meta,Anos com cobertura < 95%,"Anos completos da fase (7 no SI-PNI, 3 na RNDS, 10 no total)",× 100,F22; F23,"Região, município, fase",Boletim 14 – Tríplice viral e sarampo
+Bolsão de baixa cobertura,Dois ou mais municípios com limite comum e cobertura < 95% em todos os anos da fase,—,população de 1 ano exposta,F22; F23; F02; F01,Fase (2016–2018; 2019; 2020–2022; 2023–2025),Boletim 14 – Tríplice viral e sarampo
+Pessoas beneficiadas pelo Agora Tem Especialistas,CNS distintos com status Agendamento Confirmado,—,pessoas,F17; F19,"Município, mês",Painéis do Observatório (ver aba Painéis)
+Taxa de absenteísmo nas OCI,Pacientes com status Agendamento com Falta,Agendamento Confirmado + Agendamento com Falta + Atendimento Agendado,× 100,F17; F19,"Município, mês da solicitação",Painéis do Observatório (ver aba Painéis)
+Percentual de CID por grupo OCI,Quantidade de CID por grupo OCI e status,Total geral de OCI,× 100,F17; F19,"Município, grupo OCI",Painéis do Observatório (ver aba Painéis)
+Percentual de aprovação da produção OCI,Quantidade aprovada,Quantidade apresentada,× 100,F18; F19,"Município, procedimento, mês",Apresentação Agora Tem Especialistas / painel NAG; Painéis do Observatório (ver aba Painéis)
+Taxa de certificação de curso EAD,Concluintes certificados,Inscritos,× 100,F20,Curso,Relatórios de cursos NEP (Produto 2)
+Adesão às aulas in loco,Profissionais presentes,Profissionais da base,× 100,Listas de presença,"Base SAMU, mês",Relatórios de cursos NEP (Produto 2)

@@ -1,0 +1,23 @@
+﻿Termo,Definição
+AIH,"Autorização de Internação Hospitalar, registro de cada internação no SIH."
+AIT,Ataque isquêmico transitório (CID-10 G45).
+Alta complexidade,"Internações em cardiologia, neurocirurgia, traumato-ortopedia e oncologia, conforme recorte do Observatório; exclui parto de alto risco."
+APH / atendimento primário,Atendimento do SAMU a chamado de domicílio ou via pública.
+Atendimento secundário (paciente crítico / vaga zero),Atendimento a chamado de um serviço de saúde sem a capacidade técnica exigida pelo caso.
+D1,"Primeira dose da vacina tríplice viral (sarampo, caxumba e rubéola)."
+DPP,"Domicílio particular permanente, unidade do Censo usada no denominador do saneamento."
+Defasagem (lag),Número de semanas entre a condição meteorológica e os casos comparados.
+Índice de dependência,Parcela das internações de residentes feitas fora da região.
+Migração / retenção,Internação ou procedimento feito fora (migração) ou dentro (retenção) do município ou região de residência.
+NAG,"Núcleo de Apoio à Gestão da Região Metropolitana I, do CISBAF."
+OCI,"Oferta de Cuidados Integrados, conjunto de procedimentos ambulatoriais do Programa Agora Tem Especialistas."
+PAR,Plano de Ação Regional da Metropolitana I no Agora Tem Especialistas.
+Persistência,Percentual de anos de uma fase em que a cobertura ficou abaixo da meta de 95%.
+PMAE,"Programa Mais Acesso a Especialistas, atual Agora Tem Especialistas."
+Pré-crítica,Rotina de validação e correção de inconsistências dos registros antes da análise.
+Ruptura metodológica,"Mudança de fonte e de regra de cálculo (SI-PNI para RNDS, em 2023) que impede ler dois períodos como série contínua."
+RIPSA,Rede Interagencial de Informações para a Saúde; origem da série populacional padrão.
+Semana epidemiológica (SE),Semana padronizada de domingo a sábado usada pela vigilância.
+TIH,Transporte inter-hospitalar de paciente com leito já regulado.
+Versão estrita / flexível,Estrita: indicador composto só com todos os componentes presentes. Flexível: média dos componentes disponíveis.
+z-score,Valor padronizado: (valor − média) / desvio-padrão no universo estadual.

@@ -1,0 +1,56 @@
+﻿Fonte,Variável / código,Descrição,Tipo,Uso e tratamento,Produtos
+F01,V00508,Moradores em domicílios particulares permanentes (DPP) ocupados que utilizam rede geral de distribuição de água,Contagem,Numerador do abastecimento de água adequado,Boletim 11 – Saneamento
+F01,V00580,Moradores em DPP com destinação das dejeções em rede geral ou pluvial,Contagem,Parcela 1 do numerador do esgotamento adequado (V00580 + V00581),Boletim 11 – Saneamento
+F01,V00581,Moradores em DPP com fossa séptica ou fossa filtro ligada à rede,Contagem,Parcela 2 do numerador do esgotamento adequado,Boletim 11 – Saneamento
+F01,V00612,Moradores em DPP com lixo coletado no domicílio por serviço de limpeza,Contagem,Parcela 1 do numerador da coleta de lixo adequada (V00612 + V00613),Boletim 11 – Saneamento
+F01,V00613,Moradores em DPP com lixo depositado em caçamba de serviço de limpeza,Contagem,Parcela 2 do numerador da coleta de lixo adequada,Boletim 11 – Saneamento
+F01,População residente em DPP,Denominador único das medidas de saneamento,Contagem,Percentual só é calculado com denominador positivo; parcela ausente vira zero quando a outra foi observada; ambas ausentes ficam como missing,Boletim 11 – Saneamento
+F01,V01006,População total do setor,Contagem,Denominador dos marcadores de vulnerabilidade,Boletim 11 – Saneamento
+F01,V01031,População de 0 a 4 anos,Contagem,Numerador da proporção de crianças,Boletim 11 – Saneamento
+F01,V01040; V01041,Parcelas etárias de 60 anos ou mais,Contagem,Somadas no numerador da proporção de idosos,Boletim 11 – Saneamento
+F01,V00900; V00901,Pessoas de 15 anos ou mais por condição de alfabetização,Contagem,Base da proporção de analfabetismo (não alfabetizadas sobre o total de 15+),Boletim 11 – Saneamento
+F01,Cor ou raça (preta; parda),Pessoas por cor ou raça em cinco categorias,Contagem,Pretas + pardas sobre o total = proporção de população negra,Boletim 11 – Saneamento
+F01,Renda nominal média mensal do responsável,Rendimento médio do responsável pelo domicílio,Valor (R$),Transformada por logaritmo natural e padronizada (z-score),Boletim 11 – Saneamento
+F03,Diagnóstico principal (CID-10),"I60, I61, I62, I63, I64 e G45",Categórica,Seleciona as internações por AVC e AIT,Boletim 12 – AVC hiperagudo; Programa AVC Hiperagudo
+F03,DIAS_PERM,Dias de permanência da internação,Numérica,Soma de dias / total de internações = tempo médio de permanência,Boletim 12 – AVC hiperagudo
+F03,Município de residência,Código IBGE de 6 dígitos,Categórica,Base das taxas por habitante e dos fluxos de migração,Boletim 12 – AVC hiperagudo; Programa AVC Hiperagudo; Apresentação Regionalização (CT 15/10/2026)
+F03,Estabelecimento (CNES),Hospital de internação,Categórica,Distribuição por hospital; cruzamento com esfera e gestão do CNES,Boletim 12 – AVC hiperagudo; Programa AVC Hiperagudo; Apresentação Regionalização (CT 15/10/2026)
+F03,Sexo; faixa etária,Características do paciente,Categórica,Estratificação do perfil das internações,Boletim 12 – AVC hiperagudo
+F03,Especialidade / clínica do leito e grupo de alta complexidade,"Obstetrícia, clínica médica, cirurgia, pediatria; cardiologia, neurocirurgia, traumato-ortopedia, oncologia",Categórica,Retenção por especialidade e índice de dependência na alta complexidade (parto de alto risco excluído),Apresentação Regionalização (CT 15/10/2026)
+F04,Causa básica (CID-10),I60 a I64,Categórica,Numerador da taxa de mortalidade por AVC,Boletim 12 – AVC hiperagudo
+F05,Agravo,"Dengue, chikungunya, Zika",Categórica,Séries separadas e soma das três arboviroses urbanas (exclui febre amarela e oropouche),Boletim 13 – Arboviroses
+F05,Classificação final; critério de confirmação,Confirmado por critério laboratorial ou clínico-epidemiológico,Categórica,Define o universo analítico de casos confirmados,Boletim 13 – Arboviroses
+F05,Ano e semana epidemiológica do 1º sintoma,Dimensão temporal do caso,Data,Agregação anual e semanal,Boletim 13 – Arboviroses
+F05,Município de residência,Código IBGE,Categórica,Incidência municipal por 10 mil habitantes,Boletim 13 – Arboviroses
+F12,Precipitação,Chuva acumulada (mm),Numérica,"Média, máxima e mínima mensal; anomalia semanal em relação à mediana da mesma SE",Boletim 13 – Arboviroses
+F13,"Temperatura média, máxima e mínima",Temperatura do ar (°C),Numérica,Mesmo tratamento da precipitação,Boletim 13 – Arboviroses
+F14,Tipo de chamado,"Trote, queda/mudo, engano, informação, atendimento primário (APH), atendimento secundário (paciente crítico/vaga zero), transporte inter-hospitalar (TIH)",Categórica,Distribuição mensal e por município; encaminhamentos à regulação médica,Relatório Anual CRUR-BF 2025; Painéis do Observatório (ver aba Painéis)
+F14,Grau de risco / gravidade,Classificação feita pelo médico regulador,Categórica,Tempo de atendimento do regulador por grau; perfil por município,Relatório Anual CRUR-BF 2025
+F14,Recurso enviado,"USA, USB e outros recursos",Categórica,Tipos de recursos por município,Relatório Anual CRUR-BF 2025
+F14,Conduta médica; remoção,"Orientação, envio, remoção ou não",Categórica,Atendimentos com remoção,Relatório Anual CRUR-BF 2025
+F14,Destino e estabelecimento,"Hospitalar, não hospitalar, unidade de destino",Categórica,Destinos por município e por estabelecimento,Relatório Anual CRUR-BF 2025; Programa AVC Hiperagudo
+F14,Recusa e motivo,Recusa do estabelecimento de destino e justificativa,Categórica,"Percentual de recusas por estabelecimento, natureza e motivo",Relatório Anual CRUR-BF 2025
+F14,Natureza do atendimento,"Clínica, trauma, cirúrgica, obstétrica, pediátrica, psiquiátrica",Categórica,Agravos mais atendidos e recusados por natureza,Relatório Anual CRUR-BF 2025
+F14,Hipótese diagnóstica,"AVC, AIT, déficit neurológico súbito",Categórica,Seleção dos atendimentos de AVC,Boletim 12 – AVC hiperagudo; Programa AVC Hiperagudo
+F14,Marcos de tempo T0 a T7,"Registros de horário do chamado, da regulação, do acionamento, da chegada à cena, da saída da cena e da chegada ao destino",Data/hora,Tempo de resposta total (T5 − T0) e tempo de transporte (T7 − T6) por município,Boletim 12 – AVC hiperagudo; Relatório Anual CRUR-BF 2025
+F14,Dia da semana e hora; faixa etária e sexo,Distribuição temporal e perfil dos pacientes,Categórica,Gráficos de demanda por hora e dia; perfil demográfico,Relatório Anual CRUR-BF 2025
+F08,Leitos SUS gerais,"Leitos cirúrgicos, clínicos, obstétricos e pediátricos",Contagem,Razão de leitos por 1.000 habitantes; leitos operados e necessários,Apresentação Regionalização (CT 15/10/2026)
+F08,Esfera administrativa; natureza jurídica; gestão,Classificação do estabelecimento,Categórica,"Análise por esfera (municipal, estadual, federal, privada contratada)",Apresentação Regionalização (CT 15/10/2026)
+F08,Leitos de UTI; tomógrafos; habilitações,Capacidade instalada para AVC,Contagem,Mapeamento da linha de cuidado do AVC,Boletim 12 – AVC hiperagudo
+F16,OCI aprovadas,Ofertas de Cuidados Integrados aprovadas por município do estabelecimento executante e de residência,Contagem,Percentual da meta do PAR; média mensal; retenção e migração,Apresentação Agora Tem Especialistas / painel NAG
+F16,Cirurgias do programa,Cirurgias do Agora Tem Especialistas por município de atendimento e de residência,Contagem,"Ritmo, perfil, migração e encontro de contas",Apresentação Agora Tem Especialistas / painel NAG
+F16,Recursos antecipados; produção aprovada,Saldo financeiro dos gestores,Valor (R$),Percentual comprovado dos recursos; mínimo de 20% em OCI,Apresentação Agora Tem Especialistas / painel NAG
+F17; F19,Status da solicitação OCI,"Agendamento confirmado, agendamento com falta, atendimento agendado e demais status do e-SUS Regulação",Categórica,"Base do absenteísmo, das pessoas beneficiadas e dos quadros por status",Apresentação Agora Tem Especialistas / painel NAG; Painéis do Observatório (ver aba Painéis)
+F17; F19,CNS do usuário,Cartão Nacional de Saúde,Identificador,Contagem de pessoas distintas beneficiadas (sem exibição individual),Painéis do Observatório (ver aba Painéis)
+F17; F19,Grupo OCI; código OCI; CID,"Especialidade (oftalmologia, ortopedia, cardiologia, ginecologia, oncologia, otorrinolaringologia), código da OCI e CID da solicitação",Categórica,Pactuado x informado; distribuição por CID,Apresentação Agora Tem Especialistas / painel NAG; Painéis do Observatório (ver aba Painéis)
+F18; F19,Quantidade apresentada e aprovada; valor aprovado,Produção ambulatorial por local de atendimento,Contagem / valor (R$),Percentual de aprovação; comparação TabNet x base e-SUS,Apresentação Agora Tem Especialistas / painel NAG; Painéis do Observatório (ver aba Painéis)
+F17,Valor informado como atendido,Valor registrado no e-SUS Regulação,Valor (R$),Comparado ao valor aprovado no SIA para medir perda de faturamento,Apresentação Agora Tem Especialistas / painel NAG
+F22; F23,Doses de D1 da tríplice viral,Primeira dose aplicada em residentes (registro de dose no SI-PNI; pessoa vacinada na RNDS),Contagem,Numerador da cobertura; somado nos agregados regionais,Boletim 14 – Tríplice viral e sarampo
+F22; F23,População-alvo,Denominador oficial de cada sistema para a D1,Contagem,Soma da população-alvo nos agregados regionais,Boletim 14 – Tríplice viral e sarampo
+F05,Classificação final (sarampo),"Confirmado, descartado ou em investigação",Categórica,Casos confirmados por residência; notificações de 2026 por situação,Boletim 14 – Tríplice viral e sarampo
+F05,Autoctone Mun Res,Infecção no próprio município de residência (Sim = autóctone; Não = importado),Categórica,Classificação dos casos confirmados de sarampo,Boletim 14 – Tríplice viral e sarampo
+F05,Ano de início do exantema; UF de residência,Dimensões de tempo e lugar dos casos de sarampo,Data / categórica,Série 2016–2025 e recorte de 2026,Boletim 14 – Tríplice viral e sarampo
+F01,População de 1 ano (Censo 2022),Crianças de 1 ano residentes por município,Contagem,Dimensiona a população exposta em cada bolsão de baixa cobertura,Boletim 14 – Tríplice viral e sarampo
+F20,Situação do aluno,"Não iniciado, cursando, concluinte certificado, concluinte sem certificação",Categórica,Taxa de certificação e de conclusão,Relatórios de cursos NEP (Produto 2)
+F20,Nota final,"Questionário de 20 questões (0,5 ponto cada), nota mínima 7,0, duas tentativas",Numérica,Aprovação e devolutiva individual,Relatórios de cursos NEP (Produto 2)
+F20,UF; categoria profissional; pesquisa de satisfação,Perfil dos participantes e avaliação do curso,Categórica / texto,Alcance territorial e nuvem de palavras,Relatórios de cursos NEP (Produto 2)

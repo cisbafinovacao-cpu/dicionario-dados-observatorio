@@ -1,0 +1,20 @@
+﻿Município consorciado,Código IBGE (7 dígitos),Código DATASUS (6 dígitos)
+Belford Roxo,3300456,330045
+Duque de Caxias,3301702,330170
+Itaguaí,3302007,330200
+Japeri,3302270,330227
+Magé,3302502,330250
+Mesquita,3302858,330285
+Nilópolis,3303203,330320
+Nova Iguaçu,3303500,330350
+Paracambi,3303609,330360
+Queimados,3304144,330414
+São João de Meriti,3305109,330510
+Seropédica,3305554,330555
+Regras de ligação entre bases,,
+"O DATASUS (SIH, SIM, SINASC, SINAN, SIA, CNES) usa o código do município com 6 dígitos; o IBGE e a SES-RJ usam 7 dígitos (o 7º é dígito verificador). Para ligar as bases, usar os 6 primeiros dígitos.",,
+"Estabelecimentos são ligados pelo código CNES (7 dígitos) entre SIH, SIA, CNES, SUS 360º e e-SUS Regulação.",,
+Setores censitários são ligados pelo código do setor do Censo 2022 entre as tabelas agregadas e a malha.,,
+Análises de fluxo sempre registram os dois municípios: o de residência do paciente e o de atendimento ou do estabelecimento executante.,,
+"Recorte territorial padrão do Observatório: os 12 municípios consorciados. O município do Rio de Janeiro entra apenas como comparação, quando indicado no produto.",,
+"Toda base extraída registra a data de acesso ou a situação da base, que é citada no produto.",,
